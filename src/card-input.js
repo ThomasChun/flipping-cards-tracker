@@ -24,6 +24,8 @@ export default class CardInput extends React.Component {
       }
     }
     console.log('Card Input:', playerName, cardYear, cardDescription)
+    // this.props.addCard({playerName, cardYear, cardDescription});
+    this.props.addCard({playerName, cardYear, cardDescription});
   }
   
   render() {
